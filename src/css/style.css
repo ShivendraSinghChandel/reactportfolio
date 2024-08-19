@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+/* navbar */
+
+.navtitle{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navtitle:hover{
+    border-bottom: 3px solid yellow;
+    color: white;
+}
+
+.navitems{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.navitems:hover{
+    border-bottom: 3px solid yellow;
+    color: white;
+    transform: scale(1.2,1.2);
+    transition: transform 1s;
+}
+
+
+/* Hero section */
+
+.herodiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.herodiv .herointro{
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid yellow;
+    box-shadow: 5px 5px 10px 0px yellow;
+    position: relative;
+
+}
+
+.herodiv .herointro .introdata{
+    animation-name: introduction;
+    animation-duration: 5s;
+    animation-timing-function: steps(40);
+    animation-fill-mode: forwards;
+    width:0px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+
+@keyframes introduction {
+    from {width: 0;}
+    to {width: 40ch;}
+}
+
+.herodiv .herointro button {
+    margin-top: 20px; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid yellow;
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+}
+
+
+.herodiv .heroimg .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herodiv .heroimg .image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 4px solid yellow;
+    animation-name: heroimage;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes heroimage {
+    0%{
+        background-color: yellow;
+        transform: translate(0px,0px);
+        box-shadow: 3px 3px 70px 0px yellow ;
+    }
+    25%{
+        background-color: rgb(84, 84, 190);
+        box-shadow: 3px 3px 70px 0px rgb(84, 84, 190);
+    }
+    50%{
+        background-color: blue;
+        transform: translate(0px,-20px);
+        box-shadow: 3px 3px 70px 0px blue;
+    }
+    75%{
+        background-color: rgb(84, 84, 190);
+        box-shadow: 3px 3px 70px 0px rgb(84, 84, 190) ;
+    }
+    100%{
+        background-color: yellow;
+        transform: translate(0px,0px);
+        box-shadow: 3px 3px 70px 0px yellow ;
+    }
+}
