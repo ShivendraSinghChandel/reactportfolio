@@ -9,7 +9,7 @@ const Hero=()=>{
           </div>
           <div className="heroimg">
                 <div className="image">
-                    <img src="public/hero/hero.jpg" alt="" />
+                    <img src="public/hero/hero1.jpg" alt="" />
                 </div>
           </div>
           </div>

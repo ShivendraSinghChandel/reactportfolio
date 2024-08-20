@@ -7,8 +7,8 @@ const About = () => {
     <>
     <div className='aboutsection' id='about'>
       <Row>
-      <Col> <Image style={{height:"439px", width:"340px"}} src='/images/IMG_20240202_005430.jpg' rounded /> </Col>
-        <Col> <h1>About Me</h1> <br />
+      <Col className='aboutimg'> <Image className='abimg' src='/images/IMG_20240202_005430.jpg' rounded /> </Col>
+        <Col className='aboutdata'> <h1>About Me</h1> <br />
           Hello! I'm Shivendra Singh Chandel. I'm a web developer,
           and programmer too. 
           and I'm very passionate and dedicated to my 
@@ -22,7 +22,7 @@ const About = () => {
            impedit officia illum praesentium amet, vero quos natus 
            veritatis totam!
            <br />
-          <button style={{margin:"50px 0px 0px 20px",padding:"10px 30px",border:"none",fontSize: "20px",borderRadius:"8px",borderBottom:"3px solid gray"}}>Know More</button>
+          <button className='aboutbutton'>Know More</button>
           </Col>
       </Row>
       </div>
