@@ -1,55 +1,53 @@
-import ProgressBar from 'react-bootstrap/ProgressBar';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 const Skills=()=>{
-  const showcontrol=false;
     return(
         <>
-         <div className='myskills' id='skills'>
-          <h1 style={{marginLeft:"40%",marginBottom:"40px"}}>My Skills</h1>
-          <Row>
-            <Col className='bars'>
-            <h6>HTML</h6>
-             <ProgressBar variant='secondary' now={80} label={`80%`} />
-            </Col>
-            <Col md={3}></Col>
-            <Col className='bars'>
-            <h6>CSS</h6>
-             <ProgressBar variant='secondary' now={80} label={`80%`} /></Col>
-          </Row>
-          <Row>
-            <Col className='bars'>
-            <h6>JavaScript</h6>
-             <ProgressBar variant='secondary' now={90} label={`90%`} /></Col>
-             <Col md={3}></Col>
-            <Col className='bars'>
-            <h6>ReactJS</h6>
-             <ProgressBar variant='secondary' now={40} label={`40%`} /></Col>
-          </Row>
-          <Row>
-            <Col className='bars'><h6>NodeJS</h6>
-            <ProgressBar variant='secondary' now={30} label={`30%`} /></Col>
-            <Col md={3}></Col>
-            <Col className='bars'><h6>C</h6>
-            <ProgressBar variant='secondary' now={90} label={`90%`} /></Col>
-          </Row>
-          <Row>
-            <Col className='bars'><h6>C++</h6>
-            <ProgressBar variant='secondary' now={90} label={`90%`} /></Col>
-            <Col md={3}></Col>
-            <Col className='bars'><h6>Python</h6>
-            <ProgressBar variant='secondary' now={70} label={`70%`} /></Col>
-          </Row>
-          <Row>
-            <Col className='bars'><h6>DSA</h6>
-            <ProgressBar variant='secondary' now={80} label={`80%`} /></Col>
-            <Col md={3}></Col>
-            <Col className='bars'><h6>MySQL</h6>
-            <ProgressBar variant='secondary' now={95} label={`95%`} /></Col>
-          </Row>
-          
-         </div>
+        <div className="skillsection" id="skills">
+            <h1>SKILLS</h1>
+        </div>
+        <div className="skills">
+          <div className="skillsitem">
+            <img src="public/skills/html.png" alt="html" />
+            <h3>HTML</h3>
+          </div>
+          <div className="skillsitem">
+            <img src="public/skills/css.png" alt="css" />
+            <h3>CSS</h3>
+          </div>
+          <div className="skillsitem">
+            <img src="public/skills/js.png" alt="js" />
+            <h3>JavaSCript</h3>
+          </div>
+          <div className="skillsitem">
+            <img src="public/skills/react.svg" alt="reactjs" />
+            <h3>ReactJS</h3>
+          </div>
+          <div className="skillsitem">
+            <img src="public/skills/nodejs.png" alt="nodejs" />
+            <h3>NodeJS</h3>
+          </div>
+          <div className="skillsitem">
+            <img src="public/skills/express-js.png" alt="expressjs" />
+            <h3>ExpressJS</h3>
+          </div>
+          <div className="skillsitem">
+            <img src="public/skills/mongodb.png" alt="mongodb" />
+            <h3>MongoDB</h3>
+          </div>
+          <div className="skillsitem">
+            <img src="public/skills/mysql.png" alt="mysql" />
+            <h3>MySQL</h3>
+          </div>
+          <div className="skillsitem">
+            <img src="public/skills/CC++.png" alt="C/C++" />
+            <h3>C/C++</h3>
+          </div>
+          <div className="skillsitem">
+            <img src="public/skills/python.png" alt="python" />
+            <h3>Python</h3>
+          </div>
+        </div>
+         
         </>
     )
 }
