@@ -7,11 +7,11 @@ const Projects = () => {
   return (
     <>
       <div className='projectsection' id="projects">
-        <h1>PROJECTS</h1>
+        <h1 data-aos="fade-right" data-aos-duration="1000">PROJECTS</h1>
         <div className='projectitem'>
         <Row>
           <Col>
-              <Card className='card' style={{ width: '18rem' }}>
+              <Card data-aos="flip-up" data-aos-duration="1000" className='card' style={{ width: '18rem' }}>
                 <Card.Img className='img' variant="top" src="public/projects/tictactoe.png" />
                 <Card.Body>
                   <Card.Title>Tic Tac Toe</Card.Title>
@@ -27,7 +27,7 @@ const Projects = () => {
             
           </Col>
           <Col>
-              <Card className='card' style={{ width: '18rem' }}>
+              <Card data-aos="flip-up" data-aos-duration="1000" className='card' style={{ width: '18rem' }}>
                 <Card.Img className='img' variant="top" src="public/projects/ecommerce.png" />
                 <Card.Body>
                   <Card.Title>E-Commerce Website</Card.Title>
@@ -43,7 +43,7 @@ const Projects = () => {
             
           </Col>
           <Col>
-              <Card className='card' style={{ width: '18rem' }}>
+              <Card data-aos="flip-up" data-aos-duration="1000" className='card' style={{ width: '18rem' }}>
                 <Card.Img className='img' variant="top" src="public/projects/footwear.png" />
                 <Card.Body>
                   <Card.Title>E-Commerce Website</Card.Title>
@@ -62,7 +62,7 @@ const Projects = () => {
         </Row>
         <Row>
           <Col>
-              <Card className='card' style={{ width: '18rem' }}>
+              <Card data-aos="flip-up" data-aos-duration="1000" className='card' style={{ width: '18rem' }}>
                 <Card.Img className='img' variant="top" src="public/projects/jsdashboard.png" />
                 <Card.Body>
                   <Card.Title>Admin Dashboard</Card.Title>
@@ -78,7 +78,7 @@ const Projects = () => {
             
           </Col>
           <Col>
-              <Card className='card' style={{ width: '18rem' }}>
+              <Card data-aos="flip-up" data-aos-duration="1000" className='card' style={{ width: '18rem' }}>
                 <Card.Img className='img' variant="top" src="public/projects/bookissuing.png" />
                 <Card.Body>
                   <Card.Title>Book Management System</Card.Title>
@@ -94,7 +94,7 @@ const Projects = () => {
             
           </Col>
           <Col>
-              <Card className='card' style={{ width: '18rem' }}>
+              <Card data-aos="flip-up" data-aos-duration="1000" className='card' style={{ width: '18rem' }}>
                 <Card.Img className='img' variant="top" src="public/projects/reactdashboard.png" />
                 <Card.Body>
                   <Card.Title>Student Dashboard</Card.Title>
@@ -112,7 +112,7 @@ const Projects = () => {
         </Row>
         <Row>
           <Col>
-              <Card className='card' style={{ width: '18rem' }}>
+              <Card data-aos="flip-up" data-aos-duration="1000" className='card' style={{ width: '18rem' }}>
                 <Card.Img className='img' variant="top" src="public/projects/merndashboard.png" />
                 <Card.Body>
                   <Card.Title>Student Management System</Card.Title>
@@ -128,7 +128,7 @@ const Projects = () => {
             
           </Col>
           <Col>
-              <Card className='card' style={{ width: '18rem' }}>
+              <Card data-aos="flip-up" data-aos-duration="1000" className='card' style={{ width: '18rem' }}>
                 <Card.Img className='img' variant="top" src="public/projects/expansemanagement.png" />
                 <Card.Body>
                   <Card.Title>Expanse Management System</Card.Title>
@@ -144,7 +144,7 @@ const Projects = () => {
             
           </Col>
           <Col>
-              <Card className='card' style={{ width: '18rem' }}>
+              <Card data-aos="flip-up" data-aos-duration="1000" className='card' style={{ width: '18rem' }}>
                 <Card.Img className='img' variant="top" src="public/projects/expansemanagement.png" />
                 <Card.Body>
                   <Card.Title>Car Management System</Card.Title>

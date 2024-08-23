@@ -7,8 +7,10 @@ const About = () => {
     <>
     <div className='aboutsection' id='about'>
       <Row>
-      <Col className='aboutimg'> <Image className='abimg' src='/images/IMG_20240202_005430.jpg' rounded /> </Col>
-        <Col className='aboutdata'> <h1>About Me</h1> <br />
+      <Col className='aboutimg' data-aos="zoom-in-down"
+         data-aos-duration="1000"> <Image className='abimg' src='/images/IMG_20240202_005430.jpg' rounded /> </Col>
+        <Col className='aboutdata' data-aos="zoom-in-down"
+         data-aos-duration="1000"> <h1>About Me</h1> <br />
           Hello! I'm Shivendra Singh Chandel. I'm a web developer,
           and programmer too. 
           and I'm very passionate and dedicated to my 

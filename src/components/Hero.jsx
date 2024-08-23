@@ -23,12 +23,16 @@ const Hero=()=>{
     return(
         <>
         <div className='herodiv' id="hero">
-          <div className='herointro'> 
+          <div className='herointro' 
+          data-aos="fade-up-right"
+         data-aos-duration="1000"> 
                 <h1 style={{height:"10%"}} ref={typ}></h1> <br />
                 <div><a href="../public/images/myresume.pdf" download="myresume.pdf">Download CV</a> </div>
                 
           </div>
-          <div className="heroimg">
+          <div className="heroimg" 
+          data-aos="fade-up-left"
+          data-aos-duration="1000">
                 <div className="image">
                     <img src="public/hero/hero1.jpg" alt="" />
                 </div>

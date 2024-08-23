@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <>
       <div id="contact" className="contacts">
-        <h1>CONTACT</h1>
-        <div className="contacticons">
+        <h1 data-aos="fade-right" data-aos-duration="1000">CONTACT</h1>
+        <div data-aos="fade-up" data-aos-duration="1000" className="contacticons">
           <div className="icons"><a target="_blank" href="https://www.instagram.com/thakur_shivendra_chandel_/"><FaSquareInstagram /></a></div>
           <div className="icons"><a target="_blank" href="https://github.com/ShivendraSinghChandel"><FaGithub /></a></div>
           <div className="icons"><a target="_blank" href="mailto:chandel486670@gmail.com"><IoMdMail /></a></div>
@@ -18,7 +18,7 @@ const Contact = () => {
           <div className="icons"><a target="_blank" href="https://leetcode.com/u/Shivendra_Singh_Chandel/"><SiLeetcode /></a></div>
           <div className="icons"><a target="_blank" href="https://www.facebook.com/profile.php?id=100033454590690"><FaFacebook /></a></div>
         </div>
-        <div className="buttondiv"><button className="contactbutton ">Say Hello</button></div>
+        <div data-aos="fade-up" data-aos-duration="1000" className="buttondiv"><button className="contactbutton ">Say Hello</button></div>
       </div>
     </>
   )
