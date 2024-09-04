@@ -21,7 +21,7 @@ const Projects = () => {
                 </Card.Body>
                 <Card.Body>
                   <Button  className='demobutton'>Demo</Button>
-                  <Button  className='codebutton'>Code</Button>
+                  <Button  className='codebutton' onClick={()=>{window.open('https://github.com/ShivendraSinghChandel/tictactoe')}}>Code</Button>
                 </Card.Body>
               </Card>
             
@@ -37,7 +37,7 @@ const Projects = () => {
                 </Card.Body>
                 <Card.Body>
                   <Button  className='demobutton'>Demo</Button>
-                  <Button  className='codebutton'>Code</Button>
+                  <Button  className='codebutton' onClick={()=>{window.open('https://github.com/ShivendraSinghChandel/multipagewebsite')}}>Code</Button>
                 </Card.Body>
               </Card>
             
@@ -53,7 +53,7 @@ const Projects = () => {
                 </Card.Body>
                 <Card.Body>
                   <Button  className='demobutton'>Demo</Button>
-                  <Button  className='codebutton'>Code</Button>
+                  <Button  className='codebutton' onClick={()=>{window.open('https://github.com/ShivendraSinghChandel/FootweareCommerce')}}>Code</Button>
                 </Card.Body>
               </Card>
             
@@ -72,7 +72,7 @@ const Projects = () => {
                 </Card.Body>
                 <Card.Body>
                   <Button  className='demobutton'>Demo</Button>
-                  <Button  className='codebutton'>Code</Button>
+                  <Button  className='codebutton' onClick={()=>{window.open('https://github.com/ShivendraSinghChandel/dashboardjs')}}>Code</Button>
                 </Card.Body>
               </Card>
             
@@ -88,7 +88,7 @@ const Projects = () => {
                 </Card.Body>
                 <Card.Body>
                   <Button  className='demobutton'>Demo</Button>
-                  <Button  className='codebutton'>Code</Button>
+                  <Button  className='codebutton' onClick={()=>{window.open('https://github.com/ShivendraSinghChandel/bookissuingsystem')}}>Code</Button>
                 </Card.Body>
               </Card>
             
@@ -104,7 +104,7 @@ const Projects = () => {
                 </Card.Body>
                 <Card.Body>
                   <Button  className='demobutton'>Demo</Button>
-                  <Button  className='codebutton'>Code</Button>
+                  <Button  className='codebutton' onClick={()=>{window.open('https://github.com/ShivendraSinghChandel/CRUDusingReact')}}>Code</Button>
                 </Card.Body>
               </Card>
             
@@ -122,7 +122,7 @@ const Projects = () => {
                 </Card.Body>
                 <Card.Body>
                   <Button  className='demobutton'>Demo</Button>
-                  <Button  className='codebutton'>Code</Button>
+                  <Button  className='codebutton' onClick={()=>{window.open('https://github.com/ShivendraSinghChandel/DashboardMERN')}}>Code</Button>
                 </Card.Body>
               </Card>
             
@@ -138,7 +138,7 @@ const Projects = () => {
                 </Card.Body>
                 <Card.Body>
                   <Button  className='demobutton'>Demo</Button>
-                  <Button  className='codebutton'>Code</Button>
+                  <Button  className='codebutton' onClick={()=>{window.open('https://github.com/ShivendraSinghChandel/ExpanseManagement')}}>Code</Button>
                 </Card.Body>
               </Card>
             
@@ -154,7 +154,7 @@ const Projects = () => {
                 </Card.Body>
                 <Card.Body>
                   <Button  className='demobutton'>Demo</Button>
-                  <Button  className='codebutton'>Code</Button>
+                  <Button  className='codebutton' onClick={()=>{window.open('https://github.com/ShivendraSinghChandel/ExpanseManagement')}}>Code</Button>
                 </Card.Body>
               </Card>
             
